@@ -1,0 +1,11 @@
+// Adding create table query for ref.
+
+CREATE TABLE tasks (
+    id TEXT PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    completed BOOLEAN NOT NULL
+);
+
+// Paste this into a migration .sql file
+// create db and initiate run
